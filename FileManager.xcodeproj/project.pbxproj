@@ -16,6 +16,7 @@
 		B041A4CE241F614700023802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B041A4CD241F614700023802 /* main.m */; };
 		B041A4D8241F614700023802 /* FileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B041A4D7241F614700023802 /* FileManagerTests.m */; };
 		B041A4E3241F614700023802 /* FileManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B041A4E2241F614700023802 /* FileManagerUITests.m */; };
+		B041A4F2241F616600023802 /* NSFileManager+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = B041A4F1241F616600023802 /* NSFileManager+Extention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		B041A4DE241F614700023802 /* FileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B041A4E2241F614700023802 /* FileManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileManagerUITests.m; sourceTree = "<group>"; };
 		B041A4E4241F614700023802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B041A4F0241F616600023802 /* NSFileManager+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extention.h"; sourceTree = "<group>"; };
+		B041A4F1241F616600023802 /* NSFileManager+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		B041A4BA241F614500023802 /* FileManager */ = {
 			isa = PBXGroup;
 			children = (
+				B041A4F3241F6D7900023802 /* Common */,
 				B041A4BB241F614500023802 /* AppDelegate.h */,
 				B041A4BC241F614500023802 /* AppDelegate.m */,
 				B041A4BE241F614500023802 /* SceneDelegate.h */,
@@ -135,6 +139,15 @@
 				B041A4E4241F614700023802 /* Info.plist */,
 			);
 			path = FileManagerUITests;
+			sourceTree = "<group>";
+		};
+		B041A4F3241F6D7900023802 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B041A4F0241F616600023802 /* NSFileManager+Extention.h */,
+				B041A4F1241F616600023802 /* NSFileManager+Extention.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 			files = (
 				B041A4C3241F614500023802 /* ViewController.m in Sources */,
 				B041A4BD241F614500023802 /* AppDelegate.m in Sources */,
+				B041A4F2241F616600023802 /* NSFileManager+Extention.m in Sources */,
 				B041A4CE241F614700023802 /* main.m in Sources */,
 				B041A4C0241F614500023802 /* SceneDelegate.m in Sources */,
 			);
